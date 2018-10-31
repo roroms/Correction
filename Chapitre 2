@@ -33,3 +33,14 @@ for loop in range(15):
 deposer()
 
 Exercice 5
+
+from robot import *
+  
+for loop in range(21):
+      haut()
+      droite()
+for loop in range(21):
+      gauche()
+      bas()
+      
+Exercice 6
