@@ -6,3 +6,6 @@ for loop in range(135):
    print("Je dois respecter le Grand Sorcier.")
    
 Exercice 2
+
+for loop in range(13):
+   print("9 * 8 = 72")
