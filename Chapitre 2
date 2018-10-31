@@ -1,0 +1,8 @@
+Chapitre 2
+
+Exercice 1
+
+for loop in range(135):
+   print("Je dois respecter le Grand Sorcier.")
+   
+Exercice 2
