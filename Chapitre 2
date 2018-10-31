@@ -21,3 +21,15 @@ ramasser()
 for loop in range(32):
       droite()
 deposer() 
+
+Exercice 4
+
+from robot import *
+
+droite()
+for loop in range(15):
+      ramasser()
+      droite()
+deposer()
+
+Exercice 5
