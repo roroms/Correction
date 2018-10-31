@@ -66,3 +66,16 @@ for loop in range(108):
       bas()
    for loop in range(13):
       gauche()
+
+Exercice 8
+
+from robot import *
+
+for loop in range(20):
+      ramasser()
+      for loop in range(15):
+         droite()
+      deposer()
+      for loop in range(15):
+         gauche()
+
