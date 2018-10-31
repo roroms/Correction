@@ -9,3 +9,15 @@ Exercice 2
 
 for loop in range(13):
    print("9 * 8 = 72")
+   
+Exercice 3
+
+from robot import *
+
+for loop in range(2):
+      gauche()
+print("Bonjour, laissez-moi vous aider")
+ramasser()
+for loop in range(32):
+      droite()
+deposer() 
