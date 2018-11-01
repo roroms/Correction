@@ -92,3 +92,21 @@ for loop in range(20):
       for loop in range(15):
          gauche()
 
+Exercice 10
+
+from robot import *
+haut()
+for loop in range(4):
+   for loop in range(8):
+          haut()
+   droite()
+   for loop in range(8):
+          bas()
+   droite()
+for loop in range(8):
+   haut()
+droite()
+for loop in range(9):
+   bas()
+for loop in range(9):
+   gauche()
