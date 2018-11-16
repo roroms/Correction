@@ -69,3 +69,18 @@ for loop in range(50):
    lancers = lancers + 1
    bonbons = bonbons + lancers
    print(bonbons)
+
+Exercice 11
+
+from robot import *
+
+valeur = 0
+
+for loop in range(10):
+   valeur = valeur + 1
+   for loop in range(valeur):
+      droite()
+   ramasser()
+   for loop in range(valeur): 
+      gauche()
+   deposer()
