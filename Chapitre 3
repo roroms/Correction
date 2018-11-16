@@ -44,3 +44,11 @@ for loop in range(1):
    
 for loop in range(2):
    print("I")
+   
+Exercice 8
+
+nombre = 100
+for loop in range(101):
+   print(nombre)
+   nombre = nombre - 1
+print("Décollage !")
