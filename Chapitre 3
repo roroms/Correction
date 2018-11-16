@@ -60,3 +60,12 @@ nombre = 1337
 for loop in range(12):
    nombre = nombre * 2
 print(nombre)
+
+Exercice 10
+
+lancers = 0
+bonbons = 0
+for loop in range(50):
+   lancers = lancers + 1
+   bonbons = bonbons + lancers
+   print(bonbons)
