@@ -84,3 +84,13 @@ for loop in range(10):
    for loop in range(valeur): 
       gauche()
    deposer()
+   
+Exercice 12
+
+Taille = 1
+Cube = 0
+for loop in range(9):
+   Cube = Cube + Taille ** 3
+   Taille = Taille + 2
+print(Cube)
+
