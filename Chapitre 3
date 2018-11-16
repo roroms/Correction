@@ -1,0 +1,32 @@
+Exercice 1
+
+print(42)
+
+Exercice 2
+
+print(12581 - 11937)
+
+Exercice 3
+
+print((25 + 30 + 27 + 14)*3)
+
+Exercice 4
+
+distance = 42
+print(distance, end = " ")
+print(distance * 2, end = " ")
+print(distance * 3)
+
+Exercice 5
+
+l= 17*5+7*2+5+2*2
+print(l * l)
+print(l * 4)
+
+Exercice 6
+
+nombre = 1
+for loop in range(100):
+   print(nombre)
+   nombre = nombre + 1
+print("J'arrive !")
