@@ -13,7 +13,7 @@ print((25 + 30 + 27 + 14)*3)
 Exercice 4
 
 distance = 42
-print(distance, end = " ")
+print(distance end = " ")
 print(distance * 2, end = " ")
 print(distance * 3)
 
