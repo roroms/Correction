@@ -94,3 +94,13 @@ for loop in range(9):
    Taille = Taille + 2
 print(Cube)
 
+Exercice 13
+
+Ligne = 1
+for loop in range(20):
+   Colonnes = 1
+   for loop in range(20):
+      print(Colonnes * Ligne, end = " ")
+      Colonnes = Colonnes + 1
+   print()
+   Ligne = Ligne + 1
