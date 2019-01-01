@@ -1,0 +1,18 @@
+Exercice 1
+l = int(input())
+print(l * l * 23)
+
+Exercice 2
+Jours = int(input())
+print(60 * 60 * 16 * Jours)
+
+Exercice 3
+Cadet = int(input())
+Ainé = int(input())
+difference = Ainé - Cadet
+print(difference)
+
+Exercice 4
+lignes = int(input())
+for nligne in range(lignes):
+   print("Je dois suivre en cours")
