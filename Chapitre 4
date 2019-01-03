@@ -16,3 +16,9 @@ Exercice 4
 lignes = int(input())
 for nligne in range(lignes):
    print("Je dois suivre en cours")
+
+Exercice 5
+tempMin = int(input())
+tempMax = int(input())
+for temp in range(tempMin, tempMax+1):
+   print(temp)
