@@ -22,3 +22,12 @@ tempMin = int(input())
 tempMax = int(input())
 for temp in range(tempMin, tempMax+1):
    print(temp)
+   
+Exercice 6
+nbNombres = int(input())
+multiplicateur = 0
+nombre = 66
+for loop in range(nbNombres):
+   multiplicateur = multiplicateur + 1
+   nombre = nombre * multiplicateur
+   print(nombre)
