@@ -47,3 +47,15 @@ for loop in range(20):
    nb = int(input())
    total = total + nb
 print(totals)
+
+Exercice 9
+largeurBas = int(input())
+largeurHaut = int(input())
+ 
+volume = 0
+largeur = largeurHaut
+for loop in range(largeurBas - largeurHaut + 1):
+   volume = volume + largeur * largeur
+   largeur = largeur + 1
+ 
+print(volume)
