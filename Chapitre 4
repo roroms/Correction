@@ -40,3 +40,10 @@ position = positionDépart
 for iVendeur in range(nbVendeurs + 1):
    print(position)
    position = position + largeurEmplacement
+   
+Exercice 8
+total = 0
+for loop in range(20):
+   nb = int(input())
+   total = total + nb
+print(totals)
