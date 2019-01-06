@@ -37,7 +37,7 @@ positionDépart = int(input())
 largeurEmplacement = int(input())
 nbVendeurs = int(input())
 position = positionDépart
-for iVendeur in range(nbVendeurs + 1):
+for iVendeur in range(nbVendeurs+1):
    print(position)
    position = position + largeurEmplacement
    
@@ -46,7 +46,7 @@ total = 0
 for loop in range(20):
    nb = int(input())
    total = total + nb
-print(totals)
+print(total)
 
 Exercice 9
 largeurBas = int(input())
