@@ -40,6 +40,18 @@ else:
    
 Exercice 6
 
+premierDé = int(input())
+secondDé = int(input())
+somme = premierDé + secondDé
+if somme >= 10:
+   print("Taxe spéciale !")
+   print(36)
+else:
+   print("Taxe régulière")
+   print(2 * somme)
+   
+Exercice 7
+
 nbPersonnes = int(input())
 totalÉquipe1 = 0
 totalÉquipe2 = 0
@@ -55,4 +67,10 @@ else:
 print("Poids total pour l'équipe 1 :", totalÉquipe1)
 print("Poids total pour l'équipe 2 :", totalÉquipe2)
    
-Exercice 7
+Exercice 8
+
+tentative = int(input())
+if tentative == 64741:
+   print("Bon festin !")
+else:
+   print("Allez-vous-en !")
