@@ -87,7 +87,7 @@ t = 0
 for loop in range (i):
    da = int(input())
    dp = int(input())
-   if ((dp < dd) or (da > df):
+   if ((dp < dd) or (da > df)):
       t = t
    else:
       t = t + 1
