@@ -1,1 +1,96 @@
+Exercice 1
+
+dateDébut = int(input())
+dateFin = int(input())
+nbEntrées = int(input())
+nbPersonnes = 0
+for loop in range(nbEntrées):
+   date = int(input())
+   if dateDébut <= date and date <= dateFin:
+      nbPersonnes = nbPersonnes + 1
+print(nbPersonnes)
+
+Exercice 2
+
+xMin = int(input())
+xMax = int(input())
+yMin = int(input())
+yMax = int(input())
+nbMaisons = int(input())
+nbAFouiller = 0
+for loop in range(nbMaisons):
+   x = int(input())
+   y = int(input())
+   if (xMin <= x) and (x <= xMax) and (yMin <= y) and (y <= yMax):
+      nbAFouiller = nbAFouiller + 1
+print(nbAFouiller)
+
+Exercice 3
+
+numero = int(input())
+if numero == 11:
+   print(29)
+else:
+   if ( (4 <= numero) and (numero <= 6) ) or (numero == 10):
+      print(31)
+   else:
+      print(30)
+      
+Exercice 4
+
+dateDebutPremier = int(input())
+dateFinPremier = int(input())
+dateDebutSecond = int(input())
+dateFinSecond = int(input())
+if (dateFinSecond < dateDebutPremier) or (dateFinPremier < dateDebutSecond):
+   print("Pas amis")
+else:
+   print("Amis")
+   
+Exercice 5
+
+nbPersonnes = int(input())
+nbMax = 0
+nbActuel = 0
+for loop in range(nbPersonnes * 2):
+   numero = int(input())
+   if numero > 0:
+      nbActuel = nbActuel + 1
+   else:
+      nbActuel = nbActuel - 1
+   if nbActuel > nbMax:
+      nbMax = nbActuel
+print(nbMax)
+
+Exercice 6
+/
+Exercice 7
+
+numeroPersonne = int(input())
+tailleListe = int(input())
+estSorti  = False
+for loop in range(tailleListe):
+   numero = int(input())
+   if numero == numeroPersonne:
+      estSorti = True
+if estSorti:
+   print("Sorti de la ville")
+else:
+   print("Encore dans la ville")
+   
+Exercice 8
+
+dd = int(input())
+df = int(input())
+i = int(input())
+t = 0
+for loop in range (i):
+   da = int(input())
+   dp = int(input())
+   if ((dp < dd) or (da > df):
+      t = t
+   else:
+      t = t + 1
+print(t)
+
 
